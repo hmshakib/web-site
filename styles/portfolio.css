@@ -1,0 +1,37 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* nav bar */
+nav{
+    display: flex;
+    text-align: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45;
+}
+.rcolor{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 51px;
+    list-style: none;
+}
+.dark2{
+    color: #474747;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+}
