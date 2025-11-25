@@ -11,6 +11,7 @@
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin-bottom: 93px;
 }
 /* nav bar */
 nav{
@@ -57,6 +58,7 @@ nav ul li a{
 }
 .banner-contant{
     max-width: 585px ;
+    margin: 261px 678px 220px 337px;
     
 }
 .
@@ -64,4 +66,24 @@ nav ul li a{
     height: 979px;
     width: 584px;
 }
-    
+ .cart{
+   background-color: #f7ddcb; 
+   /* width: 1263px; height: 553px; */
+   margin: 0px 200px;
+   border-radius: 10px;
+   padding: 132px 220px 132px 220px;
+   gap: 30px;
+   margin-bottom: 200px;
+   word-wrap: inherit;
+ }   
+ .cart-cont{
+    border: 2px solid black;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+ }
+ 
+ .cart-adress{
+    display: flex;
+    justify-content: space-between;
+ }
