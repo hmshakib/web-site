@@ -33,11 +33,7 @@ nav ul{
 }
 nav ul li{
     margin: 51px;
-    list-style: none;
-}
-.dark2{
-    color: #474747;
-}
+    list-style: none;}
 nav ul li a{
     text-decoration: none;
 }
@@ -66,24 +62,89 @@ nav ul li a{
     height: 979px;
     width: 584px;
 }
- .cart{
+/* cart-scection */
+.cart{
    background-color: #f7ddcb; 
    /* width: 1263px; height: 553px; */
-   margin: 0px 200px;
+   margin: 0px 100px;
    border-radius: 10px;
    padding: 132px 220px 132px 220px;
    gap: 30px;
-   margin-bottom: 200px;
-   word-wrap: inherit;
+   margin-bottom: 93px;
+   
  }   
- .cart-cont{
+.cart-cont{
     border: 2px solid black;
     /* align-items: center;
     justify-content: center; */
     text-align: center;
  }
  
- .cart-adress{
+.cart-adress{
     display: flex;
     justify-content: space-between;
+ }
+
+ /* shared-style */
+.dark2 {
+     color: #474747;}
+.dark3{
+    color: #757575;
+}
+     /* What i do */
+.qualification{
+    text-align: center;
+    justify-content: center;
+    padding: 0px 220px 0px 220px;
+    margin-bottom: 93px;
+}    
+.qualification-title{
+    font-weight: bold;
+    font-size: 36px;
+}
+.discription{
+    font-weight: 400;
+    font-size: 18px;
+}
+/* skills */
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+    gap: 24px;
+}
+.skill{
+    box-shadow: 0px 6px 20px 0px #505050;
+    border-radius: 10px;
+    padding: 30px;
+}
+ /* Resume */ 
+ .resume{
+    margin: 50px 230px;
+ }
+ .resume-title{
+    font-weight: bold;
+    font-size: 35px;
+ }
+ .exp{
+    font-weight: bold;
+    font-size: 30px;
+ }
+ .resume-container{
+     display: flex;
+     gap: 24px;
+    }
+    .experience{
+       margin-bottom: 30px;
+    }
+ .resume-title{
+    text-align: center;
+    color: #474747;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .resume-subtitle{
+    color:#757575 ;
+    font-weight: 700;
+    font-size: 20px;
  }
